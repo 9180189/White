@@ -1,10 +1,12 @@
 
 body{
     background-color: antiquewhite;
-    
+
 }
 h1{
 color: grey;
 text-align: center;
+font-family: 'times new roman';
+font-size: 20 px;
 }
 
