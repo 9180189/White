@@ -4,446 +4,177 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GRL PWR</title>
-    <link rel="shortcut icon" href="https://cdn130.picsart.com/235440063053212.png?r1024x1024">
-
-   
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GRL PWR</title>
+  <link rel="shortcut icon" href="https://cdn130.picsart.com/235440063053212.png?r1024x1024">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-    <style>
- body {           
-       background-color: white;
-       }
-
-  
-h1 {
-  text-align: center;
-  padding: 0px;
- 
-}
-
-div.text{
-  background-color: #FAFAFA;
-  width: 1300px;
-  border: 45px solid #F8E6E0;
-  padding: 15px;
-  margin: 15px;
-  font-family: 'Dancing Script', cursive;
-  color: grey;
-  font-size: 22px;
-  
-}
-div.text2{
-  background-color:#FAFAFA;
-  width: 1300px;
-  border: 45px solid#F2F5A9;
-  padding: 15px;
-  margin: 15px;
-  font-family: 'Dancing Script', cursive;
-  color: grey;
-  font-size: 22px;
-}
-
-div.tex{
-  background-color:#FAFAFA;
-  width: 1300px;
-  border: 45px solid #E0ECF8 ;
-  padding: 15px;
-  margin: 15px;
-  font-family: 'Dancing Script', cursive;
-  color:grey;
-  font-size: 22px;
-}
-
-
-ul {
-  list-style-type: none;
-  margin: 50px;
-  padding: 0px;
-  overflow: hidden;
-  background-color:gray;
-}
-
-li {
-  float: left;
-  
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-
-
-
-/* Change the link color to lightgrey on hover */
-li a:hover {
-  background-color: lightgrey;
-}
-            
-            * {
-              box-sizing: border-box;
-            }
-            
-            .row > .column {
-              padding: 0 8px;
-            }
-            
-            .row:after {
-              content: "";
-              display: table;
-              clear: both;
-            }
-            
-            .column {
-              float: left;
-              width: 25%;
-              font-family: 'Dancing Script', cursive;
-              color:grey;
-              font-size: 20px;
-            }
-            
-            /* The Modal (background) */
-            .modal {
-              display: none;
-              position: fixed;
-              z-index: 1;
-              padding-top: 100px;
-              left: 0;
-              top: 0;
-              width: 100%;
-              height: 100%;
-              overflow: auto;
-              background-color: black;
-            }
-            
-            /* Modal Content */
-            .modal-content {
-              position: relative;
-              background-color: #fefefe;
-              margin: auto;
-              padding: 0;
-              width: 90%;
-              max-width: 1200px;
-            }
-            
-            /* The Close Button */
-            .close {
-              color: white;
-              position: absolute;
-              top: 10px;
-              right: 25px;
-              font-size: 35px;
-              font-weight: bold;
-            }
-            
-            .close:hover,
-            .close:focus {
-              color: #999;
-              text-decoration: none;
-              cursor: pointer;
-            }
-            
-            .mySlides {
-              display: none;
-            }
-            
-            .cursor {
-              cursor: pointer;
-            }
-            
-            /* Next & previous buttons */
-            .prev,
-            .next {
-              cursor: pointer;
-              position: absolute;
-              top: 50%;
-              width: auto;
-              padding: 16px;
-              margin-top: -50px;
-              color: white;
-              font-weight: bold;
-              font-size: 20px;
-              transition: 0.6s ease;
-              border-radius: 0 3px 3px 0;
-              user-select: none;
-              -webkit-user-select: none;
-            }
-            
-            /* Position the "next button" to the right */
-            .next {
-              right: 0;
-              border-radius: 3px 0 0 3px;
-            }
-            
-            /* On hover, add a black background color with a little bit see-through */
-            .prev:hover,
-            .next:hover {
-              background-color: rgba(0, 0, 0, 0.8);
-            }
-            
-            /* Number text (1/3 etc) */
-            .numbertext {
-              color: #f2f2f2;
-              font-size: 12px;
-              padding: 8px 12px;
-              position: absolute;
-              top: 0;
-            }
-            
-            img {
-              margin-bottom: -4px;
-            }
-            
-            .caption-container {
-              text-align: center;
-              background-color: black;
-              padding: 2px 16px;
-              color: white;
-            }
-            
-            .demo {
-              opacity: 0.6;
-            }
-            
-            .active,
-            .demo:hover {
-              opacity: 1;
-            }
-            
-            img.hover-shadow {
-              transition: 0.3s;
-            }
-            
-            .hover-shadow:hover {
-              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            }
-
-
-
-            </style>
+  <link rel="stylesheet" href="makeup.css">
 </head>
 <body>
-
-  
-
-    <h1> <img src="https://cdn141.picsart.com/269367483013211.png?r1024x1024" width="300" height="300"></h1>
-
+    <h1>
+        <img
+        src="https://cdn141.picsart.com/269367483013211.png?r1024x1024"
+        width="300"
+        height="300"
+        >
+      </h1>
     
-
-    <div>
-       
+      <div>
         <ul>
-           <li><a href="home.html">Home</a></li>
-            <li><a href="tendencias.html">Tendências 2018</a></li>
-            <li><a href="makeup.html">Make up </a></li>
-            <li><a href="favoritos.html">Favoritos</a></li>
-            <li><a href="receitas.html">Receitas</a></li>
-            <li><a href="decoracao.html">Decoração</a></li>
-        </ul>           
-    </div>  
-        <div class="tex">Existe diversas marcas de Make Up pelo mundo, mas a Maybelline foi a nossa marca predileta nos últimos anos de trabalho. Para além de preços super acessíveis, a relação preço/qualidade é muito elevada. Por isso e muito mais, hoje vamos mostrar um pouco sobre o que esta marca tem para oferecer.</div>
-        <div class="text"> <b>A história de Maybelline</b> (1915),  "Maybelline Company" foi fundada por T.L. Williams. Era um negócio de família. A irmã de Williams, Maybel, foi quem o inspirou a dar este nome à empresa, já que foi dela que teve a ideia de produzir e vender produtos de maquiagem que fossem práticos de utilizar. De facto, Thomas pretendia ajudar a irmã a reconquistar o marido, após este a ter-se apaixonado por outra mulher. Em 1917, a Maybelline lançou a "Maybelline Cake Mascara", o primeiro cosmético para os olhos para uso diário. Era composto por vaselina e pó de carvão. Assim, nasceu o nome Maybelline: Mabel (nome da sua irmã) + vaselina. O cosmético era, inicialmente, apenas vendido por correio. No entanto, o produto fez tanto sucesso que começou a ser pedido pelas senhoras nas drogarias e mercearias.</div>
-        <div class="text2">Actualmente, a Maybelline está presente em mais de 90 países pelo mundo e os seus produtos são distribuídos em todos os tipos de superfícies comerciais. O objectivo da empresa é fazer com que as mulheres se sintam mais bonitas e femininas e é por isso e pela avançada tecnologia e pesquisa na hora de elaborar os seus produtos, que a Maybelline é a marca de cosméticos número um do mundo.</div>
-        <div class="row">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="tendencias.html">Tendências 2018</a></li>
+          <li><a href="makeup.html">Make up </a></li>
+          <li><a href="favoritos.html">Favoritos</a></li>
+          <li><a href="receitas.html">Receitas</a></li>
+          <li><a href="decoracao.html">Decoração</a></li>
+        </ul>      
+      </div> 
+    
+      <div class="tex">Existe diversas marcas de Make Up pelo mundo, mas a Maybelline foi a nossa marca predileta nos últimos anos de trabalho. Para além de preços super acessíveis, a relação preço/qualidade é muito elevada. Por isso e muito mais, hoje vamos mostrar um pouco sobre o que esta marca tem para oferecer.</div>
+      <div class="text"> <b>A história de Maybelline</b> (1915),  "Maybelline Company" foi fundada por T.L. Williams. Era um negócio de família. A irmã de Williams, Maybel, foi quem o inspirou a dar este nome à empresa, já que foi dela que teve a ideia de produzir e vender produtos de maquiagem que fossem práticos de utilizar. De facto, Thomas pretendia ajudar a irmã a reconquistar o marido, após este a ter-se apaixonado por outra mulher. Em 1917, a Maybelline lançou a "Maybelline Cake Mascara", o primeiro cosmético para os olhos para uso diário. Era composto por vaselina e pó de carvão. Assim, nasceu o nome Maybelline: Mabel (nome da sua irmã) + vaselina. O cosmético era, inicialmente, apenas vendido por correio. No entanto, o produto fez tanto sucesso que começou a ser pedido pelas senhoras nas drogarias e mercearias.</div>
+      <div class="text2">Actualmente, a Maybelline está presente em mais de 90 países pelo mundo e os seus produtos são distribuídos em todos os tipos de superfícies comerciais. O objectivo da empresa é fazer com que as mulheres se sintam mais bonitas e femininas e é por isso e pela avançada tecnologia e pesquisa na hora de elaborar os seus produtos, que a Maybelline é a marca de cosméticos número um do mundo.</div>
+      <div class="row">
+
           <div class="column">
-            <img style="-webkit-user-select: none;" src="https://www.pluricosmetica.com/media/produtos/cache/138792_53d0f-500_500.jpg" width="250" height="250"><p>1- Maybelline Eyeshadow Lemonade Palette </p>
+            <img
+            style="-webkit-user-select: none;"
+            src="https://www.pluricosmetica.com/media/produtos/cache/138792_53d0f-500_500.jpg"
+            width="250"
+            height="250">
+            <p>1- Maybelline Eyeshadow Lemonade Palette </p>
           </div>
+      
           <div class="column">
-              <img style="-webkit-user-select:none;" src="https://i.pinimg.com/564x/0e/07/19/0e071963dbdd2edf3f6e0d2e88f4c96b.jpg" width="250" height="205"><p>2-Master Chrome, bronzer</p>
-  
-            </div> 
-         
+            <img
+            style="-webkit-user-select:none;"
+            src="https://i.pinimg.com/564x/0e/07/19/0e071963dbdd2edf3f6e0d2e88f4c96b.jpg"
+            width="250"
+            height="205">
+            <p>2-Master Chrome, bronzer</p>
+          </div> 
+
           <div class="column">
               <img style="-webkit-user-select: none;" src="https://i.pinimg.com/564x/7b/e1/f7/7be1f77d24609370119f8a412c9e0efd.jpg" widht="250" height="250"><p>3-Rímel ultra curvo</p>
           </div>
           <div class="column">
               <img style="-webkit-user-select: none;" src="https://i.pinimg.com/564x/7c/a0/55/7ca055da1ca4abb4d4bfc69468bceb74.jpg" widht="250" height="250"><p>4- Master Sculpt, contornos </p>
           </div>
-         
           <div class="column">
               <img style="-webkit-user-select: none;" src="https://i.pinimg.com/564x/ae/8e/ca/ae8ecad3fcb178a20d52193155ceb335.jpg" widht="250" height="250"><p>5-Super stay, batom pink </p>
             </div>
             <div class="column">
                 <img style="-webkit-user-select: none;" src="https://i.pinimg.com/564x/6d/a4/29/6da4299ffeb86346cdabb396867ce794.jpg" widht="250" height="250"><p>6-Corretor, iluminador </p>
               </div>
-         
-          
-          
-          <div class="column">
-              <img style="-webkit-user-select: none;cursor: zoom-in;" src="https://media.allure.com/photos/5af1c8180a4b074a78cfa6bd/master/w_768%2Cc_limit/Maybelline-Eyeshadow-Soda-Pop-Palette.jpg" width="250" height="250"> <p>7- Maybelline Eyeshadow Soda Pop Palette </p>
-          </div>
-          <div class="column">
-              <img style="-webkit-user-select:none;" src="https://i.pinimg.com/564x/4a/1f/10/4a1f10b4b518e565d88e481ec0baaa38.jpg" width="250" height="250"><p>8- Rímel cheiro intenso</p>
-  
-            </div>
 
+              <div class="column">
+                  <img style="-webkit-user-select: none;cursor: zoom-in;" src="https://media.allure.com/photos/5af1c8180a4b074a78cfa6bd/master/w_768%2Cc_limit/Maybelline-Eyeshadow-Soda-Pop-Palette.jpg" width="250" height="250"> <p>7- Maybelline Eyeshadow Soda Pop Palette </p>
+                </div>
             
-            <br>
-            <br>
-
+                <div class="column">
+                  <img style="-webkit-user-select:none;" src="https://i.pinimg.com/564x/4a/1f/10/4a1f10b4b518e565d88e481ec0baaa38.jpg" width="250" height="250"><p>8- Rímel cheiro intenso</p>
+                </div>
             
-             
-            <iframe width="1325 " height="600" 
-            src="https://youtu.be/6KxT4KWdqKc">
-            </iframe>
-
-
-            <div class="containerrr">
-                <h2>. Fav Make Up Brands ♡ </h2>  
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                  </ol>
-              
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner">
+                <br>
+                <br>
+            
+                <iframe
+                width="1325"
+                height="600"
+                src="https://www.youtube.com/embed/6KxT4KWdqKc"
+                ></iframe>
+            
+            
+                <div class="containerrr">
+                  <h2>♡ Fav Make Uo Brands ♡</h2>
+            
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                    </ol>
+            
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+            
                     <div class="item active">
-                      <img src="https://i.pinimg.com/564x/0a/0f/32/0a0f323687119170621725e672d449c5.jpg" alt="Urban Decay" widht="1000" height="1000">
+                      <img src="https://i.pinimg.com/564x/0a/0f/32/0a0f323687119170621725e672d449c5.jpg" alt="Urban Decay" widht="250" height="250">
                     </div>
-              
+            
                     <div class="item">
-                      <img src="https://i.pinimg.com/564x/a5/e0/54/a5e054dcd0635f8bfe49caf4d708edf5.jpg" alt="Fenty Beauty" width="1000" height="1000" >
-                    </div>
-                  
-                    <div class="item">
-                      <img src="https://i.pinimg.com/564x/74/55/3c/74553cc8f66d2f1ceb70270efda93776.jpg" alt="Mac " width="1000" height="1000" >
+                      <img src="https://i.pinimg.com/564x/a5/e0/54/a5e054dcd0635f8bfe49caf4d708edf5.jpg" alt="Fenty Beauty" >
                     </div>
                   </div>
-              
+            
                   <!-- Left and right controls -->
                   <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left"></span>
                     <span class="sr-only">Previous</span>
                   </a>
+            
                   <a class="right carousel-control" href="#myCarousel" data-slide="next">
                     <span class="glyphicon glyphicon-chevron-right"></span>
                     <span class="sr-only">Next</span>
                   </a>
                 </div>
+            
               </div>
-              
             
-
+              <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
             
-              
-          
-           
-          
-       
-        
-        <div id="myModal" class="modal">
-          <span class="close cursor" onclick="closeModal()">&times;</span>
-          <div class="modal-content">
-        
-            <div class="mySlides">
-              <div class="numbertext">1 / 8</div>
-              <img style="-webkit-user-select: none;" src="https://www.pluricosmetica.com/media/produtos/cache/138792_53d0f-500_500.jpg" width="250" height="250">
-            </div>
-        
-            <div class="mySlides">
-              <div class="numbertext">5 / 8</div>
-              <img style="-webkit-user-select: none;cursor: zoom-in;" src="https://media.allure.com/photos/5af1c8180a4b074a78cfa6bd/master/w_768%2Cc_limit/Maybelline-Eyeshadow-Soda-Pop-Palette.jpg" width="250" height="250">
-            </div>
-        
-            <div class="mySlides">
-              <div class="numbertext">3 / 8</div>
-              <img style="-webkit-user-select: none;" src="https://i.pinimg.com/564x/7b/e1/f7/7be1f77d24609370119f8a412c9e0efd.jpg" width="250" height="250" >
-            </div>
+                  <div class="mySlides">
+                    <div class="numbertext">1 / 8</div>
+                    <img style="-webkit-user-select: none;" src="https://www.pluricosmetica.com/media/produtos/cache/138792_53d0f-500_500.jpg" width="250" height="250">
+                  </div>
             
-            <div class="mySlides">
-              <div class="numbertext">6 / 8</div>
-              <img style="-webkit-user-select: none;" src="https://i.pinimg.com/564x/6d/a4/29/6da4299ffeb86346cdabb396867ce794.jpg" widht="250" height="250">
-            </div>
-            <div class="mySlides">
-              <div class="numbertext">7 / 8</div> 
-              <img style="-webkit-user-select:none;" src="https://i.pinimg.com/564x/4a/1f/10/4a1f10b4b518e565d88e481ec0baaa38.jpg" width="250" height="250">
-            </div>
-            <div class="mySlides">
-                <div class="numbertext">4/ 8</div>
-                <img style="-webkit-user-select: none;" src="https://i.pinimg.com/564x/7c/a0/55/7ca055da1ca4abb4d4bfc69468bceb74.jpg" width="250" height="250" >
+                  <div class="mySlides">
+                    <div class="numbertext">5 / 8</div>
+                    <img style="-webkit-user-select: none;cursor: zoom-in;" src="https://media.allure.com/photos/5af1c8180a4b074a78cfa6bd/master/w_768%2Cc_limit/Maybelline-Eyeshadow-Soda-Pop-Palette.jpg" width="250" height="250">
+                  </div>
+            
+                  <div class="mySlides">
+                    <div class="numbertext">3 / 8</div>
+                    <img style="-webkit-user-select: none;" src="https://i.pinimg.com/564x/7b/e1/f7/7be1f77d24609370119f8a412c9e0efd.jpg" width="250" height="250">
+                  </div>
+            
+                  <div class="mySlides">
+                    <div class="numbertext">6 / 8</div>
+                    <img style="-webkit-user-select: none;" src="https://i.pinimg.com/564x/6d/a4/29/6da4299ffeb86346cdabb396867ce794.jpg" widht="250" height="250">
+                  </div>
+            
+                  <div class="mySlides">
+                    <div class="numbertext">7 / 8</div> 
+                    <img style="-webkit-user-select:none;" src="https://i.pinimg.com/564x/4a/1f/10/4a1f10b4b518e565d88e481ec0baaa38.jpg" width="250" height="250">
+                  </div>
+            
+                  <div class="mySlides">
+                    <div class="numbertext">4/ 8</div>
+                    <img style="-webkit-user-select: none;" src="https://i.pinimg.com/564x/7c/a0/55/7ca055da1ca4abb4d4bfc69468bceb74.jpg" width="250" height="250" >
+                  </div>
+            
+                  <div class="mySlides">
+                    <div class="numbertext">8 / 8</div>
+                    <img style="-webkit-user-select: none;" src="https://i.pinimg.com/564x/ae/8e/ca/ae8ecad3fcb178a20d52193155ceb335.jpg" widht="250" height="250">
+                  </div>
+            
+                  <div class="mySlides">
+                    <div class="numbertext">2 / 8</div> 
+                    <img style="-webkit-user-select:none;" src="https://i.pinimg.com/564x/0e/07/19/0e071963dbdd2edf3f6e0d2e88f4c96b.jpg" width="250" height="250">
+                  </div>
+            
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+                  <div class="caption-container">
+                    <p id="caption"></p>
+                  </div>
+            
+                </div>
               </div>
-              
-              <div class="mySlides">
-                <div class="numbertext">8 / 8</div>
-                <img style="-webkit-user-select: none;" src="https://i.pinimg.com/564x/ae/8e/ca/ae8ecad3fcb178a20d52193155ceb335.jpg" widht="250" height="250">
-              </div>
-              <div class="mySlides">
-                <div class="numbertext">2 / 8</div> 
-                <img style="-webkit-user-select:none;" src="https://i.pinimg.com/564x/0e/07/19/0e071963dbdd2edf3f6e0d2e88f4c96b.jpg" width="250" height="250">
-              </div>
-
-
-              
-            
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        
-            <div class="caption-container">
-              <p id="caption"></p>
-            </div>
-        
-            
-        
-           
-        
-        <script>
-        function openModal() {
-          document.getElementById('myModal').style.display = "block";
-        }
-        
-        function closeModal() {
-          document.getElementById('myModal').style.display = "none";
-        }
-        
-        var slideIndex = 1;
-        showSlides(slideIndex);
-        
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-        
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-        
-        function showSlides(n) {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("demo");
-          var captionText = document.getElementById("caption");
-          if (n > slides.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";
-          }
-          for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";
-          dots[slideIndex-1].className += " active";
-          captionText.innerHTML = dots[slideIndex-1].alt;
-        }
-        </script>
-
-        
-  
-            
-        </body>
-       
-   
-
-     
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="makeup.js"></script>
 </body>
-</html>
+</html> 
+
