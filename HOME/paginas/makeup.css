@@ -9,7 +9,7 @@ body {
   
   div.text {
     background-color: #fafafa;
-    width: 1300px;
+    width: 1000px;
     border: 45px solid #f8e6e0;
     padding: 15px;
     margin: 15px;
@@ -19,7 +19,7 @@ body {
   }
   div.text2 {
     background-color: #fafafa;
-    width: 1300px;
+    width: 1000px;
     border: 45px solid#F2F5A9;
     padding: 15px;
     margin: 15px;
@@ -30,7 +30,7 @@ body {
   
   div.tex {
     background-color: #fafafa;
-    width: 1300px;
+    width: 1000px;
     border: 45px solid #e0ecf8;
     padding: 15px;
     margin: 15px;
@@ -204,4 +204,14 @@ body {
   
   .containerrr > h2 {
     text-align: center;
+  }
+
+  #myCarousel {
+    width:400px;
+    margin:0 auto;
+  }
+
+  #tudo {
+    width: 1000px;
+    margin: 20px auto;
   }
