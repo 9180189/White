@@ -205,3 +205,8 @@ body {
   .containerrr > h2 {
     text-align: center;
   }
+
+  #myCarousel {
+    widht:400px;
+    margin:0 auto;
+  }
