@@ -6,6 +6,47 @@ body {
     text-align: center;
     padding: 0px;
   }
+  ul {
+    list-style-type: none;
+    margin: 50px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: gray;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  /* Change the link color to lightgrey on hover */
+li a:hover {
+  background-color: lightgrey;
+}
+/* unvisited link */
+a:link {
+  color:whitesmoke;
+}
+
+
+/* mouse over link */
+a:hover {
+  color:black;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color:whitesmoke;
+}
   
   div.text {
     background-color: white;
@@ -39,30 +80,7 @@ body {
     font-size: 18px;
   }
   
-  ul {
-    list-style-type: none;
-    margin: 50px;
-    padding: 0px;
-    overflow: hidden;
-    background-color: gray;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to lightgrey on hover */
-  li a:hover {
-    background-color: lightgrey;
-  }
+ 
   
   * {
     box-sizing: border-box;
